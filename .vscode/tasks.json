@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "${workspaceFolder}/build.bat",
+            "problemMatcher": "$gcc",
+            "options": {
+                "cwd": "${workspaceFolder}/engine/"
+            }
+        },
+        {
+            "label": "build test",
+            "type": "shell",
+            "command": "${workspaceFolder}/test/buildtest.bat",
+            "problemMatcher": "$gcc",
+            "options": {
+                "cwd": "${workspaceFolder}/test/"
+            }
+        }
+    ]
+}
