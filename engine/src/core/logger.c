@@ -24,7 +24,7 @@ void logger_log(log_level level, const char* message, ...) {
     va_end(va_arg);
 
     char out_message[8192];
-    sprintf(out_message, "%s%s\n", log_level_strings[level], buffer_message);
+    snprintf(out_message, sizeof(buffer_message), "%s%s\n", log_level_strings[level], buffer_message);
 
     platform_out(level, out_message);
 }

@@ -11,6 +11,8 @@ void platform_out(int level, const char* message) {
 
     SetConsoleTextAttribute(std_handle, colors[level]);
 
+    SetConsoleOutputCP(CP_UTF8);
+
     WriteConsoleA(std_handle, message, strlen(message), 0, NULL);
 }
 

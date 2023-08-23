@@ -2,6 +2,7 @@
     "files.associations": {
         "definitions.h": "c",
         "stdlib.h": "c",
-        "logger.h": "c"
+        "logger.h": "c",
+        "string.h": "c"
     }
 }
