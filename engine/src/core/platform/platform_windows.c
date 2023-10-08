@@ -17,4 +17,3 @@ void platform_out(int level, const char* message) {
 }
 
 #endif
-

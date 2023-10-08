@@ -3,6 +3,24 @@
         "definitions.h": "c",
         "stdlib.h": "c",
         "logger.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "memory.h": "c",
+        "array": "c",
+        "deque": "c",
+        "iterator": "c",
+        "list": "c",
+        "queue": "c",
+        "vector": "c",
+        "xhash": "c",
+        "initializer_list": "c",
+        "random": "c",
+        "type_traits": "c",
+        "xstring": "c",
+        "xutility": "c",
+        "string_view": "c",
+        "utility": "c",
+        "string": "c",
+        "xiosbase": "c",
+        "unordered_map": "c"
     }
 }
